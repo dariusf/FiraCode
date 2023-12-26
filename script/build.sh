@@ -95,8 +95,8 @@ if [ "${gen_glyphs_file_only}" -ne 0 ]; then
 fi
 
 ./build_ttf.sh "${weights[@]}"
-./build_variable.sh
-./build_woff2.sh
-./build_woff.sh
+# ./build_variable.sh
+# ./build_woff2.sh
+# ./build_woff.sh
 
 rm -f "${FIRACODE_GLYPHS_FILE}"
